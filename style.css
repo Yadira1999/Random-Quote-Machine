@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(222, 99, 222);
+}
+
+.container {
+    background-color: beige;
+   width: 900px;
+   height: 700px;
+   display: flex;
+}
+
+.quotes{
+    border: 10px solid rgb(227, 227, 219) ;
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0, 50px;
+    color: black;
+    background-color: rgb(235, 235, 192);
+}
+
+.quotes p, .quotes h3{
+    font-size: 27px;
+    font-style: italic;
+    text-align: center;
+}
